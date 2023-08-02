@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.craditems{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 25vw;
+    height: 100vh;
+    outline: none;
+    border-right: 2px solid gray;
+    padding: 8px;
+}
+
+label{
+    text-align: center;
+    padding: 5px;
+}
+
+iframe{
+    padding: 8px;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+
+
